@@ -1,7 +1,7 @@
 import React from "react";
-import PrimaryInput from "../inputs/PrimaryInput";
-import Heading from "../tests/Heading";
-import Paragraph from "../tests/Paragraph";
+import PrimaryInput from "../../inputs/PrimaryInput";
+import Heading from "../../texts/Heading";
+import Paragraph from "../../texts/Paragraph";
 
 function LandingPageHero() {
   return (
