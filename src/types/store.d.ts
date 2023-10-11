@@ -1,0 +1,3 @@
+interface IStore {
+    count: number;
+}
