@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { type } from "os";
 import React from "react";
+import Paragraph from "../tests/Paragraph";
 
 interface Props {
   title: string;
@@ -15,7 +16,7 @@ function BigCards({ title, image, color, type }: Props) {
 
   return (
     <div
-      className={`h-64   bg-secondaryDark backdrop-blur-sm border border-neutral-900 rounded-md flex flex-col justify-center items-center px-12 ${width}`}
+      className={`h-64 bg-secondaryDark backdrop-blur-sm border border-neutral-900 rounded-md flex flex-col justify-center items-center px-12  ${width}`}
     >
       <div className="relative">
         <div
@@ -32,7 +33,7 @@ function BigCards({ title, image, color, type }: Props) {
         />
       </div>
 
-      <p className="text-white text-2xl mt-4 text-center font-thin">{title}</p>
+      <Paragraph className="text-center">{title}</Paragraph>
     </div>
   );
 }

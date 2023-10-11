@@ -14,12 +14,12 @@ function LandingPageHeader() {
   }
 
   return (
-    <header className="flex justify-between items-center py-8 px-8">
+    <header className="flex justify-between items-center py-2 sm:py-8 px-2 sm:px-8">
       <div className="flex items-center">
         <Logo />
       </div>
 
-      <nav className="sm:flex sm:items-center text-white font-light text-xl">
+      <nav className=" hidden sm:flex sm:items-center text-white font-light text-xl">
         <a href="#" className="block mt-4 sm:inline-block sm:mt-0 mr-8">
           Home
         </a>

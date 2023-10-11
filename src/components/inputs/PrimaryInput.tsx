@@ -3,10 +3,10 @@ import PrimaryButton from "../buttons/PrimaryButton";
 
 function PrimaryInput() {
   return (
-    <div className="border border-primary w-max rounded-full backdrop-blur-sm  ">
+    <div className="border border-primary  rounded-full backdrop-blur-sm flex w-full">
       <input
         type="text"
-        className="bg-transparent p-4 px-10 outline-none text-white sm:min-w-[400px] font-light placeholder:text-white"
+        className="bg-transparent p-4 px-10 outline-none text-white w-full  flex-1 font-light placeholder:text-white"
         placeholder="Enter your email"
       />
 
