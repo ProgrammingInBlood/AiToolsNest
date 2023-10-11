@@ -8,7 +8,7 @@ Collection of multiple AI Tools at one Place also making it completely free for 
 
 ## Tech Stack
 
-**Client:** Nest.js, Zustand, TailwindCSS
+**Client:** Next.js, Zustand, TailwindCSS
 
 **Server:** Node, Express
 
