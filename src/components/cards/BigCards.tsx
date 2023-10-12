@@ -26,9 +26,8 @@ function BigCards({ title, image, color, type }: Props) {
           src={image}
           width={100}
           height={100}
-          objectFit="cover"
+          style={{ objectFit: "cover", objectPosition: "center" }}
           className="z-5 relative"
-          objectPosition="center"
           alt="card-image"
         />
       </div>
